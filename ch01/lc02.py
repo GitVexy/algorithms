@@ -1,4 +1,4 @@
-def median_followers(nums: list[int]) -> int:
+def median_followers(nums: list[int]):
     if nums:
         median = float
         new_nums = sorted(nums.copy())
